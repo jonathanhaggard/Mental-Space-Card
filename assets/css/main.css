@@ -235,6 +235,8 @@ overflow: hidden;
   padding: 2.5vmin;
   margin-top: 6vmin;
   overflow: hidden;
+  position: relative;
+  z-index: 99999;
 }
 h1{
   font-family: 'cirkalight', serif;
