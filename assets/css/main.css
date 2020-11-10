@@ -311,3 +311,6 @@ position: relative;
   background-size: contain;
   transform: scale(2);
 }
+#lottie{
+  width: 100%;
+}
