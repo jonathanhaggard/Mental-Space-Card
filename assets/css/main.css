@@ -218,12 +218,16 @@ overflow: hidden;
   top: 0;
   left: 0;
 }
-.main{
+.main, .decoration{
   height: calc(100% - 10vmin);
   margin: 5vmin;
-  background: linear-gradient(0deg, rgba(255,226,181,1) 0%, rgba(252,202,197,1) 33%, rgba(195,168,207,1) 66%, rgba(96,128,187,1) 100%);
   border-radius: 10vmin;
   overflow: hidden;
+}
+.decoration{
+  background: linear-gradient(0deg, rgba(255,226,181,1) 0%, rgba(252,202,197,1) 33%, rgba(195,168,207,1) 66%, rgba(96,128,187,1) 100%);
+  width: calc(100% - 10.5vmin);
+  position: absolute;
 }
 .flexer{
   height: 100%;
@@ -235,10 +239,8 @@ overflow: hidden;
   align-content: center;
   padding: 10vmin;
   overflow: hidden;
-  position: absolute;
+  position: relative;
   z-index: 99999;
-  top:0;
-  left: 0;
 }
 h1{
   font-family: 'cirkalight', serif;
