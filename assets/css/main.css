@@ -324,14 +324,36 @@ position: relative;
 }
 .logo{
   position: absolute;
-  width: 10vw;
+  width: 18vw;
   height: auto;
   bottom: 10vw;
-  left: calc(50% - 5vw);
+  left: calc(50% - 9vw);
   display: block;
   z-index: 999999;
   transition: .1s ease-out;
 }
 .logo:hover{
   transform: scale(1.1);
+}
+
+
+
+@media (min-device-width: 320px) and (max-device-width: 480px) {
+
+h1{
+  font-size: 5vw;
+  line-height: 6vw;
+  margin-bottom: 10vh;
+}
+
+
+h2{
+  font-size: 3.5vw;
+}
+
+#lottie{
+}
+.flexer{
+  padding: 5vmin;
+}
 }
