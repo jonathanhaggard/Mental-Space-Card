@@ -326,7 +326,7 @@ position: relative;
   position: absolute;
   width: 18vw;
   height: auto;
-  bottom: 10vw;
+  bottom: 6vw;
   left: calc(50% - 9vw);
   display: block;
   z-index: 999999;
