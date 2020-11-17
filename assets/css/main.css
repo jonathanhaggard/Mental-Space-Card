@@ -256,7 +256,7 @@ h2{
   color: #6082BD;
   letter-spacing: 1px;
   font-size: 1.5vw;
-  margin-top: 10vw;
+  margin-top: 5vw;
 }
 
 .switcher{
@@ -320,7 +320,7 @@ position: relative;
   transform: scale(2);
 }
 #lottie{
-  width: 100%;
+  width: 75%;
 }
 .logo{
   width: 18vw;
@@ -346,9 +346,11 @@ h1{
 
 h2{
   font-size: 3.5vw;
+  margin-top: 12vh;
 }
 
 #lottie{
+  width: 100%;
   transform: scale(1.2);
 }
 .flexer{
