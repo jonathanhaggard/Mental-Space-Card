@@ -323,11 +323,8 @@ position: relative;
   width: 100%;
 }
 .logo{
-  position: absolute;
   width: 18vw;
   height: auto;
-  bottom: 6vw;
-  left: calc(50% - 9vw);
   display: block;
   z-index: 999999;
   transition: .1s ease-out;
@@ -352,8 +349,13 @@ h2{
 }
 
 #lottie{
+  transform: scale(1.2);
 }
 .flexer{
   padding: 5vmin;
+}
+.logo{
+  margin-top:20vh;
+  width: 40vw;
 }
 }
