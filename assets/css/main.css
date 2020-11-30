@@ -178,8 +178,8 @@ caption {
   /* 1. */ }
   @font-face {
       font-family: 'cirkalight';
-      src: url('cirka-light-webfont.woff2') format('woff2'),
-           url('cirka-light-webfont.woff') format('woff');
+      src: url('Cirka-Light.woff2') format('woff2'),
+           url('Cirka-Light.woff') format('woff');
       font-weight: normal;
       font-style: normal;
 
@@ -190,8 +190,8 @@ caption {
 
   @font-face {
       font-family: 'cirkabold';
-      src: url('cirka-bold-webfont.woff2') format('woff2'),
-           url('cirka-bold-webfont.woff') format('woff');
+      src: url('Cirka-Bold.woff2') format('woff2'),
+           url('Cirka-Bold.woff') format('woff');
       font-weight: normal;
       font-style: normal;
 
